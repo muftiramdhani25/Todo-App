@@ -15,6 +15,7 @@
 		64B34D5525DA1DFA0092A623 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B34D5425DA1DFA0092A623 /* Preview Assets.xcassets */; };
 		64B34D5825DA1DFA0092A623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B34D5625DA1DFA0092A623 /* LaunchScreen.storyboard */; };
 		64B34D6225DA1F040092A623 /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B34D6125DA1F040092A623 /* AddTodoView.swift */; };
+		64D584CC25DE19E4005BC0EA /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D584CB25DE19E4005BC0EA /* EmptyListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		64B34D5725DA1DFA0092A623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64B34D5925DA1DFA0092A623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64B34D6125DA1F040092A623 /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
+		64D584CB25DE19E4005BC0EA /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				64B34D4C25DA1DF70092A623 /* ContentView.swift */,
 				64B34D6125DA1F040092A623 /* AddTodoView.swift */,
+				64D584CB25DE19E4005BC0EA /* EmptyListView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			files = (
 				64B34D4925DA1DF70092A623 /* AppDelegate.swift in Sources */,
 				64B34D4B25DA1DF70092A623 /* SceneDelegate.swift in Sources */,
+				64D584CC25DE19E4005BC0EA /* EmptyListView.swift in Sources */,
 				64B34D4D25DA1DF70092A623 /* ContentView.swift in Sources */,
 				64B34D5025DA1DF70092A623 /* Todo_App.xcdatamodeld in Sources */,
 				64B34D6225DA1F040092A623 /* AddTodoView.swift in Sources */,
