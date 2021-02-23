@@ -18,6 +18,15 @@
 		64B34D5525DA1DFA0092A623 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64B34D5425DA1DFA0092A623 /* Preview Assets.xcassets */; };
 		64B34D5825DA1DFA0092A623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64B34D5625DA1DFA0092A623 /* LaunchScreen.storyboard */; };
 		64B34D6225DA1F040092A623 /* AddTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B34D6125DA1F040092A623 /* AddTodoView.swift */; };
+		64BCC45F25E4AAA800F576A5 /* Green Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BCC45625E4AAA700F576A5 /* Green Light.png */; };
+		64BCC46025E4AAA800F576A5 /* Pink Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BCC45725E4AAA700F576A5 /* Pink Dark.png */; };
+		64BCC46125E4AAA800F576A5 /* Green Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BCC45825E4AAA700F576A5 /* Green Dark.png */; };
+		64BCC46225E4AAA800F576A5 /* Blue Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BCC45925E4AAA700F576A5 /* Blue Dark.png */; };
+		64BCC46325E4AAA800F576A5 /* Blue Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BCC45A25E4AAA700F576A5 /* Blue Light.png */; };
+		64BCC46425E4AAA800F576A5 /* Pink Light.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BCC45B25E4AAA700F576A5 /* Pink Light.png */; };
+		64BCC46525E4AAA800F576A5 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BCC45C25E4AAA700F576A5 /* Blue.png */; };
+		64BCC46625E4AAA800F576A5 /* Pink.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BCC45D25E4AAA700F576A5 /* Pink.png */; };
+		64BCC46725E4AAA800F576A5 /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = 64BCC45E25E4AAA800F576A5 /* Green.png */; };
 		64D584CC25DE19E4005BC0EA /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D584CB25DE19E4005BC0EA /* EmptyListView.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +44,15 @@
 		64B34D5725DA1DFA0092A623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64B34D5925DA1DFA0092A623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64B34D6125DA1F040092A623 /* AddTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoView.swift; sourceTree = "<group>"; };
+		64BCC45625E4AAA700F576A5 /* Green Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Light.png"; sourceTree = "<group>"; };
+		64BCC45725E4AAA700F576A5 /* Pink Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pink Dark.png"; sourceTree = "<group>"; };
+		64BCC45825E4AAA700F576A5 /* Green Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Dark.png"; sourceTree = "<group>"; };
+		64BCC45925E4AAA700F576A5 /* Blue Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Dark.png"; sourceTree = "<group>"; };
+		64BCC45A25E4AAA700F576A5 /* Blue Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Light.png"; sourceTree = "<group>"; };
+		64BCC45B25E4AAA700F576A5 /* Pink Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pink Light.png"; sourceTree = "<group>"; };
+		64BCC45C25E4AAA700F576A5 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		64BCC45D25E4AAA700F576A5 /* Pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pink.png; sourceTree = "<group>"; };
+		64BCC45E25E4AAA800F576A5 /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green.png; sourceTree = "<group>"; };
 		64D584CB25DE19E4005BC0EA /* EmptyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +86,7 @@
 		64B34D4725DA1DF70092A623 /* Todo App */ = {
 			isa = PBXGroup;
 			children = (
+				64BCC45525E4AA6100F576A5 /* Icons */,
 				64B34D6025DA1E710092A623 /* View */,
 				64B34D4825DA1DF70092A623 /* AppDelegate.swift */,
 				64B34D4A25DA1DF70092A623 /* SceneDelegate.swift */,
@@ -99,6 +118,22 @@
 				6492FE9F25E364B600FADA20 /* SettingsView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		64BCC45525E4AA6100F576A5 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				64BCC45925E4AAA700F576A5 /* Blue Dark.png */,
+				64BCC45A25E4AAA700F576A5 /* Blue Light.png */,
+				64BCC45C25E4AAA700F576A5 /* Blue.png */,
+				64BCC45825E4AAA700F576A5 /* Green Dark.png */,
+				64BCC45625E4AAA700F576A5 /* Green Light.png */,
+				64BCC45E25E4AAA800F576A5 /* Green.png */,
+				64BCC45725E4AAA700F576A5 /* Pink Dark.png */,
+				64BCC45B25E4AAA700F576A5 /* Pink Light.png */,
+				64BCC45D25E4AAA700F576A5 /* Pink.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +193,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64BCC46125E4AAA800F576A5 /* Green Dark.png in Resources */,
+				64BCC46725E4AAA800F576A5 /* Green.png in Resources */,
+				64BCC46325E4AAA800F576A5 /* Blue Light.png in Resources */,
+				64BCC46425E4AAA800F576A5 /* Pink Light.png in Resources */,
 				64B34D5825DA1DFA0092A623 /* LaunchScreen.storyboard in Resources */,
 				64B34D5525DA1DFA0092A623 /* Preview Assets.xcassets in Resources */,
+				64BCC46625E4AAA800F576A5 /* Pink.png in Resources */,
 				64B34D5225DA1DFA0092A623 /* Assets.xcassets in Resources */,
+				64BCC45F25E4AAA800F576A5 /* Green Light.png in Resources */,
+				64BCC46525E4AAA800F576A5 /* Blue.png in Resources */,
+				64BCC46225E4AAA800F576A5 /* Blue Dark.png in Resources */,
+				64BCC46025E4AAA800F576A5 /* Pink Dark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
