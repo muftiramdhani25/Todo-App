@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64079BF325E5FC7400BC574B /* ThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64079BF225E5FC7400BC574B /* ThemeModel.swift */; };
+		64079BF825E5FD6B00BC574B /* ThemeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64079BF725E5FD6B00BC574B /* ThemeData.swift */; };
+		64079BFB25E5FF9D00BC574B /* ThemeSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64079BFA25E5FF9D00BC574B /* ThemeSettings.swift */; };
 		6492FE9A25E35B3A00FADA20 /* FormRowStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6492FE9925E35B3A00FADA20 /* FormRowStaticView.swift */; };
 		6492FE9D25E35EC400FADA20 /* FormRowLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6492FE9C25E35EC400FADA20 /* FormRowLinkView.swift */; };
 		6492FEA025E364B600FADA20 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6492FE9F25E364B600FADA20 /* SettingsView.swift */; };
@@ -31,6 +34,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64079BF225E5FC7400BC574B /* ThemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeModel.swift; sourceTree = "<group>"; };
+		64079BF725E5FD6B00BC574B /* ThemeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeData.swift; sourceTree = "<group>"; };
+		64079BFA25E5FF9D00BC574B /* ThemeSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSettings.swift; sourceTree = "<group>"; };
 		6492FE9925E35B3A00FADA20 /* FormRowStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowStaticView.swift; sourceTree = "<group>"; };
 		6492FE9C25E35EC400FADA20 /* FormRowLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowLinkView.swift; sourceTree = "<group>"; };
 		6492FE9F25E364B600FADA20 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -67,6 +73,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64079BF125E5FC3300BC574B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				64079BF225E5FC7400BC574B /* ThemeModel.swift */,
+				64079BF725E5FD6B00BC574B /* ThemeData.swift */,
+				64079BFA25E5FF9D00BC574B /* ThemeSettings.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
 		64B34D3C25DA1DF70092A623 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +102,7 @@
 		64B34D4725DA1DF70092A623 /* Todo App */ = {
 			isa = PBXGroup;
 			children = (
+				64079BF125E5FC3300BC574B /* Theme */,
 				64BCC45525E4AA6100F576A5 /* Icons */,
 				64B34D6025DA1E710092A623 /* View */,
 				64B34D4825DA1DF70092A623 /* AppDelegate.swift */,
@@ -218,10 +235,13 @@
 				6492FE9A25E35B3A00FADA20 /* FormRowStaticView.swift in Sources */,
 				64B34D4925DA1DF70092A623 /* AppDelegate.swift in Sources */,
 				64B34D4B25DA1DF70092A623 /* SceneDelegate.swift in Sources */,
+				64079BF825E5FD6B00BC574B /* ThemeData.swift in Sources */,
 				6492FEA025E364B600FADA20 /* SettingsView.swift in Sources */,
 				64D584CC25DE19E4005BC0EA /* EmptyListView.swift in Sources */,
+				64079BFB25E5FF9D00BC574B /* ThemeSettings.swift in Sources */,
 				64B34D4D25DA1DF70092A623 /* ContentView.swift in Sources */,
 				6492FE9D25E35EC400FADA20 /* FormRowLinkView.swift in Sources */,
+				64079BF325E5FC7400BC574B /* ThemeModel.swift in Sources */,
 				64B34D5025DA1DF70092A623 /* Todo_App.xcdatamodeld in Sources */,
 				64B34D6225DA1F040092A623 /* AddTodoView.swift in Sources */,
 			);
